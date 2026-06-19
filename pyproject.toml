@@ -1,0 +1,19 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Local RAG app with Ollama + Qdrant"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "inngest",
+    "python-dotenv",
+    "httpx",
+    "qdrant-client",
+    "llama-index-readers-file",
+    "llama-index-core",
+    "pydantic",
+    "streamlit",
+    "requests",
+]
