@@ -2,6 +2,7 @@
 
 Local RAG (Retrieval-Augmented Generation) app that lets you upload PDFs and ask questions about them. Runs entirely offline using Ollama.
 
+![](demo_streamlit.png) 
 ## Architecture
 
 - **FastAPI** backend — ingests PDFs, searches vectors, calls Ollama
